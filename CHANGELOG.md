@@ -1,3 +1,9 @@
+v1.0.0 (2021-07-26)
+
+[info] Reset because of fork
+[new] Allowed disabling module cache in NodeVM.
+[fix] Looks for custom resolver before declaring module is out of sandbox.
+
 v3.9.3 (2020-04-07)
 -------------------
 [fix] Security fixes  
