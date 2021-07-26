@@ -19,6 +19,9 @@ export interface VMRequire {
   root?: string | string[];
   /** Collection of mock modules (both external or builtin). */
   mock?: any;
+  
+  /** Allow caching of imported modules (default: true) */
+  allowCaching?: boolean;
   /* An additional lookup function in case a module wasn't found in one of the traditional node lookup paths. */
   resolve?: (moduleName: string, parentDirname: string) => string;
 }
