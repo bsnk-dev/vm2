@@ -1,6 +1,6 @@
 {
   "author": "bsnk-dev",
-  "name": "@bsnk-dev/vm2",
+  "name": "bsnk-dev-vm2",
   "description": "vm2 fork for better module resolution.",
   "version": "1.0.0",
   "main": "index.js",
