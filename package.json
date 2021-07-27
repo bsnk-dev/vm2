@@ -2,7 +2,7 @@
   "author": "bsnk-dev",
   "name": "bsnk-dev-vm2",
   "description": "vm2 fork for better module resolution.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "github:bsnk-dev/vm2",
   "license": "MIT",
