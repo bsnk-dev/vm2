@@ -6,6 +6,12 @@ import {EventEmitter} from 'events';
 export interface VMRequire {
   /** Array of allowed builtin modules, accepts ["*"] for all (default: none) */
   builtin?: string[];
+
+  /**
+   * Allows sandboxed code to modify builtin modules
+   */
+  allowModifyingBuiltin?: boolean;
+
   /*
    * `host` (default) to require modules in host and proxy them to sandbox. `sandbox` to load, compile and
    * require modules in sandbox. Builtin modules except `events` always required in host and proxied to sandbox
