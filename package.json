@@ -6,7 +6,10 @@
   "main": "index.js",
   "repository": "github:bsnk-dev/vm2",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jsEvents": "npm:events@^3.3.0",
+    "unionfs": "^4.4.0"
+  },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-integromat": "^1.5.0",
